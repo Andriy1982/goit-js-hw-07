@@ -1,0 +1,51 @@
+.wraper {
+    border: 1px solid gray;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.js-list_item {
+    padding: 5px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#counter {
+   padding: 10px;
+}
+
+#name-input {
+    margin-top: 20px;
+}
+
+#validation-input {
+    margin: 15px 0px;
+    border: 3px solid #bdbdbd;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
+
+  #font-size-control {
+      margin-bottom: 20px;
+  }
+
+  #text {
+      display: inline-block;
+      width: 300px;
+      height: 100px;
+  }
