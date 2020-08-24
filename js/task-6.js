@@ -7,5 +7,9 @@ inputRef.addEventListener('focus', () => {
 inputRef.addEventListener('blur', (event) => {
     let a = event.target.value.length;
     let b = +inputRef.getAttribute('data-length');
-    a === b ? inputRef.classList.add('valid') : inputRef.classList.add('invalid');
+    if (a === b) {
+        inputRef.classList.add('valid');
+    } else {
+        inputRef.classList.add('invalid'); 
+    }
 })
